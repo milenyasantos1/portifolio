@@ -1,0 +1,12 @@
+.intro{
+    background-color: var(--foreground);
+    color: var(--primary-foreground);
+    padding: 5rem;
+    text-align: center;
+}
+/*vamos arrumar o box*/
+.intro .box{
+    max-width: 60rem;
+    margin: auto;
+    padding: 2rem;
+}
