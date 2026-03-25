@@ -10,3 +10,17 @@
     margin: auto;
     padding: 2rem;
 }
+.intro.title{
+    font-weight: bold; /*fonte em negrito*/
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+.intro.subtitle{
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+@media(width > 600px){
+    .intro.title{
+        font-size: 3rem;
+    }
+}
