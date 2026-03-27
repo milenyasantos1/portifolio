@@ -1,131 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mileny</title>
+    <title>Fulano da Silva</title>
     <link rel="stylesheet" href="style/base.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/hero.css">
     <link rel="stylesheet" href="style/intro.css">
     <link rel="stylesheet" href="style/skills.css">
-    <!-- icone da guia -->
-    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="style/recent-work.css">
+    <link rel="stylesheet" href="style/collab.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <!-- icone da guia  -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.png">
 </head>
+ 
 <body>
     <header id="container">
-        <!--menu de navegação-->
+        <!-- menu de navegação-->
         <div class="navbar">
-            <!--logo-->
+            <!-- logo -->
             <div class="logo">
-                <a href=""> <img src="images/logo.png" alt="logo"></a>
+                <a href=""> <img src="/images/logo.png" alt="logo"> </a>
             </div>
-            <!--icone do cabeçalho que sera mobile-->
+            <!-- icones do cabeçalho que será mobile -->
             <div class="menu-opener">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <!-- menu desktop-->
-             <nav>
+            <!-- menu dna tela grande-->
+            <nav>
                 <a href="#">Blog</a>
                 <a href="#" class="button">Contato</a>
-             </nav>
+            </nav>
+ 
         </div>
     </header>
-<!-- hero area-->
- <section class="hero container">
-    <h1>Programador Frontend & Backend</h1>
-    <h2>Codifico projetos bonitos e amo o que faço ❤️  </h2>
-
-    <img class="hero-avatar" src="/images/avatar.svg" alt="">
-    <img class="hero-device" src="/images/hero-devices.svg" alt="">
- </section>
-
- <section class="intro">
-    <div class="container">
-        <div class="box">
-            <!--aqui vou criar os elementos de texto-->
-            <p class="title">Oi, sou Mileny, tudo bem?</p>
-            <p class="class">
+ 
+ 
+    <!-- hero area-->
+    <section class="hero container">
+        <h1>Programador Frontend & Backend</h1>
+        <h2>Eu codifico projetos bonitos e amo o que faço</h2>
+ 
+        <img class="hero-avatar" src="/images/avatar.svg" alt="">
+        <img class="hero-device" src="/images/hero-devices.svg" alt="">
+ 
+    </section>
+ 
+    <section class="intro">
+        <div class="container">
+            <div class="box">
+                <!-- aqui vou criar os elementos de texto -->
+                <p class="title">Oi, eu sou Fulano da Silva, tudo bem?</p>
+                <p class="subtitle">
                     Sou desenvolvedor junior, curioso por natureza e motivado a aprender
                     todos os dias. Tenho interesse em entender como as coisas funcionam
                     por trás do código e gosto de transformar ideias em soluções práticas.
                     Estou constantemente buscando aprimorar minhas habilidades,
                     aprender novas tecnologias e enfrentar desafios que contribuam para
                     minha evolução na área de tecnologia.
-            </p>
+                </p>
+            </div>
         </div>
-    </div>
- </section>   
-
- <section class="skills">
-    <div class="skills-overlay"></div>
+    </section>
+ 
+    <section class="skills">
+        <div class="skills-overlay"></div>
+ 
         <div class="container">
-            <div class="grid"> 
+ 
+            <div class="grid">
+ 
                 <div class="skill">
-                    <!---icone-->
-                        <div class="skill-icon">
-                            <img src="images/design.svg" alt="logodesign">
-                        </div>
-                        <p class="skill title">Frontend Developer</p>
-                        <p class="skill-desc"> Gosto de codificar do zero, 
-                            trazer ideias e vida no navegador. </p>
-                        <p class="skill-sub">Linguagens que uso</p>
-                        <p class="skill-txt">HTML, CSS, JavaScript</p> 
-                        <p class="skill-sub"> Ferramentas que uso </p>
-                        <div class="skill-txt">
-                            <ul>
+                    <!-- vamos colocar o icone -->
+                    <div class="skill-icon">
+                        <img src="images/web-design.png" alt="">
+                    </div>
+                    <p class="skill-title">Frontend Developer</p>
+                    <p class="skill-desc">Gosto de codificar projetos do zero,
+                        trazer ideias a vida no navegador.
+                    </p>
+                    <p class="skill-sub">Linguagens que uso</p>
+                    <p class="skill-txt">HTML,CSS,JavaScript</p>
+                    <p class="skill-sub">Ferramentas que uso</p>
+                    <div class="skill-txt">
+                        <ul>
                             <li>Github</li>
                             <li>VSCode</li>
                             <li>Photoshop</li>
                             <li>Figma</li>
-                            </ul>
-                        </div>   
-                </div>
-
-                <div class="skill">
-                    <div class="skill-icon">
-                        <img src="images/code.svg" alt="logocode">
+                        </ul>
+ 
                     </div>
-                    <p class="skill title">Backend Developer</p>
-                    <p class="skill-desc"> Gosto de construir a logica por trás das aplicações,
-                        criar APIs e estruturar sistemas escalaveis. </p>
+ 
+ 
+                </div>
+                <div class="skill">
+ 
+                    <!-- vamos colocar o icone -->
+                    <div class="skill-icon">
+                        <img src="images/code.svg" alt="">
+                    </div>
+                    <p class="skill-title">Backend Developer</p>
+                    <p class="skill-desc">Gosto de construir a lógica por trás
+                        das aplicações, criar APIs e estruturar sistemas escaláveis.
+                    </p>
                     <p class="skill-sub">Linguagens que uso</p>
-                    <p class="skill-txt"> PHP,SQL,C#</p> 
-                    <p class="skill-sub"> Ferramentas que uso </p>
+                    <p class="skill-txt">PHP,SQL,C#</p>
+                    <p class="skill-sub">Ferramentas que uso</p>
                     <div class="skill-txt">
                         <ul>
-                        <li>Github</li>
-                        <li>VSCode</li>
-                        <li>MySQL</li>
-                        <li>Visual Studio</li>
+                            <li>Github</li>
+                            <li>VSCode</li>
+                            <li>MySQL</li>
+                            <li>Visual Studio</li>
                         </ul>
-                    </div> 
-                </div>
-
-                <div class="skill">
-                    <div class="skill-icon">
-                        <img src="images/video.svg" alt="logovideo">
+ 
                     </div>
-                    <p class="skill title">Soft Skill</p>
-                    <p class="skill-desc"> Acredito que boas soluções nascem de colaborações,
-                        comunicação clara e pensamento criativo</p>
-                    <p class="skill-sub"> Coisas que valorizo</p>
-                    <p class="skill-txt"> Trabalho em quipe, comunicação clara, criativa, aprendizado continuo</p> 
-                    <p class="skill-sub"> Habilidade que prático</p>
+ 
+ 
+ 
+ 
+                </div>
+                <div class="skill">
+ 
+                    <!-- vamos colocar o icone -->
+                    <div class="skill-icon">
+                        <img src="images/softskill.png" alt="">
+                    </div>
+                    <p class="skill-title">Soft Skills</p>
+                    <p class="skill-desc">Acredito que boas soluções nascem de colaboração, comunicação clara
+                        e pensamento criativo.
+                    </p>
+                    <p class="skill-sub">Coisas que valorizo</p>
+                    <p class="skill-txt">Trabalho em equipe, comunicação clara, criatividade, aprendizado contínuo</p>
+                    <p class="skill-sub">Habilidades que prático</p>
                     <div class="skill-txt">
                         <ul>
-                        <li>Resolução de problemas</li>
-                        <li>Pensamento analítico</li>
-                        <li>Organização</li>
-                        <li>Adaptabilidade</li>
+                            <li>Resolução de problemas</li>
+                            <li>Pensamento analítico</li>
+                            <li>Organização</li>
+                            <li>Adaptabilidade</li>
                         </ul>
-                    </div> 
+ 
+                    </div>
+ 
                 </div>
-
+ 
             </div>
+ 
+ 
         </div>
- </section>
+ 
+    </section>
+ 
+    <section class="recent-work container">
+        <p class="title">Meus trabalhos recentes</p>
+        <p class="subtitle">Aqui estão alguns dos trabalhos que já fiz. Quer ver mais?</p>
+ 
+        <div class="grid">
+ 
+ 
+            <div class="item">
+                <img class="image" src="/images/works/burkettandco.png" alt="">
+                <div class="overlay">
+                    <p>Aqui vai alguma descrição sobre o projeto</p>
+                    <a href="#" class="button">Visite o website</a>
+                </div>
+ 
+            </div>
+ 
+            <div class="item">
+                <img class="image" src="/images/works/chronicled.png" alt="">
+                <div class="overlay">
+                    <p>Aqui vai alguma descrição sobre o projeto</p>
+                    <a href="#" class="button">Visite o website</a>
+                </div>
+ 
+            </div>
+ 
+            <div class="item">
+                <img class="image" src="/images/works/glcsolutions.png" alt="">
+                <div class="overlay">
+                    <p>Aqui vai alguma descrição sobre o projeto</p>
+                    <a href="#" class="button">Visite o website</a>
+                </div>
+ 
+            </div>
+ 
+            <div class="item">
+                <img class="image" src="/images/works/wfdesignbuild.png" alt="">
+                <div class="overlay">
+                    <p>Aqui vai alguma descrição sobre o projeto</p>
+                    <a href="#" class="button">Visite o website</a>
+                </div>
+ 
+            </div>
+ 
+            <div class="item">
+                <img class="image" src="/images/works/chronicled.png" alt="">
+                <div class="overlay">
+                    <p>Aqui vai alguma descrição sobre o projeto</p>
+                    <a href="#" class="button">Visite o website</a>
+                </div>
+ 
+            </div>
+ 
+           
+            <div class="item">
+                <img class="image" src="/images/works/coupal.png" alt="">
+                <div class="overlay">
+                    <p>Aqui vai alguma descrição sobre o projeto</p>
+                    <a href="#" class="button">Visite o website</a>
+                </div>
+ 
+            </div>
+ 
+ 
+ 
+        </div>
+ 
+ 
+    </section>
+ 
+    <section class="collab">
+        <p class="title">
+            Tem interesse em fazer algum trabalho comigo?
+        </p>
+        <p class="subtitle">
+            Estou sempre aberto a discutir projetos e possíveis parcerias de trabalho
+        </p>
+        <a href="#" class="button">Começar uma conversa</a>
+    </section>
+ 
+    <footer>
+        <a href="#">
+            <img src="/images/logo_white.png" alt="logo">
+        </a>
+        <p class="title">Vivendo, aprendendo e melhorando um dia de cada vez</p>
+        <div class="social">
+            <a href="#">
+                <img src="images/social_linkedin.svg" alt="linkedin">
+            </a>
+            <a href="#">
+                <img src="images/social_email.svg" alt="">
+            </a>
+        </div>
+ 
+    </footer>
+ 
+ 
 </body>
+ 
 </html>
